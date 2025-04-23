@@ -31,7 +31,7 @@
 h3,
 button, .seccontainer , .card-container {
   width: 86%;
-  margin-top: 1.1rem;
+  margin-top: 1rem;
   text-transform: capitalize;
 }
 
@@ -66,20 +66,22 @@ transition: all 0.2s linear 0s;
 
 .container > h3 {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .paraone {
   padding: 0rem 0.5rem;
   text-align: center;
+  font-size: 0.85rem;
 }
 
 .seccontainer {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0.5rem;
+  padding: 0.3rem 0.5rem;
   background-color: rgba(118, 89, 144, 0.393);
   border-radius: 0.4rem;
+  font-size: 0.9rem;
 }
 
 .box {
@@ -101,7 +103,7 @@ transition: all 0.2s linear 0s;
   padding-top: 0.5rem;
 }
 
-.container > button {
+.button1 {
   padding: 1rem;
   /* margin-top: 0.2rem; */
   border-radius: 0.4rem;
@@ -115,13 +117,16 @@ transition: all 0.2s linear 0s;
   cursor: pointer;
 }
 
-.para2 {
+.button2 {
+  display: block;
   text-align: center;
   font-weight: 550;
   padding-top: 0.3rem;
-  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  transition: all 0.2s linear 0s;
 }
-
 
 
 .box2 > a:visited {
@@ -136,7 +141,7 @@ transition: all 0.2s linear 0s;
   color: rgb(19, 6, 136);
 }
 
-.container>button:hover{
+.button1:hover{
   background-color: rgba(45, 161, 66, 0.864);
  transform: scale(1.1);
 }
@@ -153,4 +158,10 @@ transition: all 0.2s linear 0s;
   color: white;
 }
 
+.button2:hover{
+color: rgb(201, 26, 26);
+}
 
+.container:hover .card-container > a {
+  box-shadow: 0px 0px 3px 0px rgb(191 12 153);
+}

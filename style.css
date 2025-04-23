@@ -1,106 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgba(191, 190, 190, 0.627);
+body {
+  background-color: rgba(191, 190, 190, 0.627);
 }
 
-.container{
-   height: 70vh;
-    width: 25vw;
-    background-color: white;
-    border-radius: 0.5rem;
-    margin: 5rem auto;
-    padding: 0.6rem 0.6rem;
-    font-family: "Poppins", sans-serif;
+.container {
+  height: 75vh;
+  width: 25vw;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin: 5rem auto;
+  padding: 0.6rem 0.6rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   transition: all 0.2s linear 0s;
   box-shadow: 0px 0px 9px 0px #0c71bf;
 }
 
-.img-container{
-    border-radius: 0.5rem;
-    height: 45%;
-    overflow: hidden;
-
+.img-container {
+  border-radius: 0.5rem;
+  height: 45%;
+  overflow: hidden;
 }
 
-.img-container>img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.img-container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.container button,h2,p {
-    text-transform: capitalize;
-margin-left: 1rem;
+.container button,
+h2,
+p {
+  text-transform: capitalize;
+  margin-left: 1rem;
 }
 
-.card-container{
-    display: flex;
-    flex-flow: row nowrap;
-    margin-top: 1rem;
-    gap: 2rem;
-    margin-left: 2rem;
+.card-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 1rem;
+  gap: 2rem;
+  margin-left: 2rem;
 }
 
-.card-container a{
-    font-size: 0.8rem;
-    padding: 0.2rem 0.9rem;
-text-decoration: none;
-background-color: rgb(239, 234, 225);
-border-radius: 1rem;
-color: rgb(86, 86, 86);
-transition: all 0.2s linear 0s;
+.card-container a {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.9rem;
+  text-decoration: none;
+  background-color: rgb(239, 234, 225);
+  border-radius: 1rem;
+  color: rgb(86, 86, 86);
+  transition: all 0.2s linear 0s;
 }
 
-.container h2{
-    margin-top: 1.1rem;
-    font-size: 1.5rem;
+.container h2 {
+  margin-top: 1.1rem;
+  font-size: 1.5rem;
 }
 
-.container p{
-    color: rgba(128, 128, 128, 0.748);
-    margin-top: 0.8rem;
-    align-items: justify;
+.container p {
+  color: rgba(128, 128, 128, 0.748);
+  margin-top: 0.8rem;
+  align-items: justify;
+  font-size: 0.9rem;
 }
 
-
-
-.container>button{
-    width: 40%;
-    display: block;
-    margin: 1.4rem auto 1rem;
-    padding: 0.8rem 0rem ;
-    border: none;
-    border-radius: 1rem;
-    background-color: #9ed2dca3;
-    color: rgba(65, 65, 198, 0.83);
-    font-weight: 550;
-    cursor: pointer;
-    transition: all 0.3s linear 0s;
-
+.container > button {
+  width: 40%;
+  display: block;
+  margin: auto;
+  margin-top: 1.5rem;
+  padding: 0.8rem 0rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #9ed2dca3;
+  color: rgba(65, 65, 198, 0.83);
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.3s linear 0s;
 }
 
-.container>button:hover{
-     background-color: rgb(27, 149, 183);
-     transform: scale(1.08);
-     color: white;
-   
+.container > button:hover {
+  background-color: rgb(27, 149, 183);
+  transform: scale(1.08);
+  color: white;
 }
 
-.card-container a:hover{
-    background-color: rgb(27, 149, 183);
-    transform: scale(1.1);
-    color: white;
+.card-container a:hover {
+  background-color: rgb(27, 149, 183);
+  transform: scale(1.1);
+  color: white;
 }
 
+.container:hover {
+  box-shadow: 0px 0px 9px 0px rgb(191 12 153);
+}
 
-.container:hover{
+.container:hover .card-container > a {
+  box-shadow: 0px 0px 3px 0px blue;
+}
 
-    box-shadow: 0px 0px 9px 0px rgb(191 12 153);
-  }
 
