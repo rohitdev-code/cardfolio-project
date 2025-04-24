@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-  height: 75vh;
   width: 25vw;
   background-color: white;
   border-radius: 0.5rem;
@@ -108,7 +107,6 @@ p {
 @media screen and (max-width:1400px) {
   .container{
     width: 50vw;
-    height: 75vh;
   }
   
 
