@@ -103,3 +103,123 @@ transition: all 0.3s linear 0s;
     color: white;
 }
 
+@media screen and (max-width:1455px) {
+    .container{
+      width: 85%;
+      height: 75%;
+    }  
+    }
+
+    @media screen and (max-width:1130px) {
+        .container{
+          width: 90%;
+          height: 85%;
+        }  
+        }
+
+        @media screen and (max-width:934px) {
+
+
+
+            
+            .container{
+              flex-direction: column;
+            }  
+
+            .leftbox{
+                width: 90%;
+                height: 50%;
+                margin: auto;
+                gap: 0.8rem;
+            }
+
+            .leftbox h2{
+                font-size: 1.7rem;
+                text-align: center;
+            } 
+
+            .leftbox p{
+                font-size: 0.8rem;
+                text-align: center;
+            } 
+
+            .boxes h3{
+                font-size: 1.4rem;
+            }
+
+            .boxes p{
+                font-size: 0.7rem;
+            }
+
+            .rightbox{
+                width: 90%;
+                height: 50%;
+                margin: auto;
+            }
+            }
+
+            @media screen and (max-width:500px) {
+                .container{
+                  width: 98%;
+                  height: 95%;
+                }  
+
+                .card-container{
+                    margin-top: 0.5rem;
+                }
+
+                .leftbox{
+                    width: 95%;
+                    margin: auto;
+                    gap: 1rem;
+                }
+    
+                .leftbox h2{
+                    font-size: 1.6rem;
+                    text-align: center;
+                } 
+    
+                .leftbox p{
+                    font-size: 0.7rem;
+                    text-align: center;
+                } 
+    
+                .boxes h3{
+                    font-size: 1.3rem;
+                }
+    .rightbox{
+        width: 95%;
+    }
+
+                }
+
+                @media screen and (max-width:368px) {
+                    .container{
+                      width: 98%;
+                      height: 95%;
+                    }  
+    
+                    .card-container{
+                        margin-top: 0.5rem;
+                    }
+    
+                    .leftbox{
+                        width: 95%;
+                        margin: auto;
+                        gap: 1rem;
+                    }
+        
+                    .leftbox h2{
+                        font-size: 1.3rem;
+                        text-align: center;
+                    } 
+        
+                    .leftbox p{
+                        font-size: 0.6rem;
+                        text-align: center;
+                    } 
+        
+                    .boxes h3{
+                        font-size: 1.2rem;
+                    }
+                }
